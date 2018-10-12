@@ -6,8 +6,8 @@ Created on Fri Oct 12 16:35:06 2018
 """
 
 #フィボナッチ数列の表示
-def fib(n):
-    a0=0
-    a1=1
-    a2=a0+a1
-    return n
+def fib(i):
+    x,y = 0,1
+    for i in range(0,i):
+        x,y = y,x+y
+    return x
